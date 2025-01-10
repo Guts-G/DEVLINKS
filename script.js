@@ -4,13 +4,13 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", " ./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto do mike brito no fundo roxo de oculos escuro")
+    img.setAttribute("src", " ./assets/Light-mode.png")
+    img.setAttribute("alt", "minha foto sem camisa")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/Dark-mode.png")
     img.setAttribute(
       "alt",
-      "Foto de myke brito sorrindo,usando oculos camisa preta barba e fundo amarelo"
+      "Minha foto sem camisa e de oculos escuro"
     )
   }
 }
